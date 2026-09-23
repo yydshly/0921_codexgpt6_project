@@ -83,9 +83,9 @@ npm run dev
 在仓库根目录构建、检查和重新生成完整故事样例：
 
 ```powershell
-npm test
 npm run examples
 npm run build
+npm test
 ```
 
 样例生成脚本重写 `public/story-examples` 中两份 HTML 和两份 JSON，并校验内嵌媒体与播放器代码。修改播放器后需要重新生成样例，不能只改源码就宣称旧独立文件已经更新。

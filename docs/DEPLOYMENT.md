@@ -6,7 +6,7 @@
 
 ## 工作流
 
-`.github/workflows/deploy.yml` 在 main 更新时运行：安装 moon-studio 的锁定依赖 → 自动测试 → 重新生成可独立播放的故事样例 → 将影片、声音及文档接入展示目录 → 用仓库子路径构建 → 上传 Pages 产物 → 发布。
+`.github/workflows/deploy.yml` 在 main 更新时运行：安装 moon-studio 的锁定依赖 → 重新生成可独立播放的故事样例 → 将影片、声音及文档接入展示目录 → 用仓库子路径构建 → 自动测试（含构建产物检查） → 上传 Pages 产物 → 发布。
 
 源码保留在仓库；网站只部署 `moon-studio/dist/client`。它没有服务器数据库、账号系统或自动上传个人照片的后端。浏览器中的保存记录仍属当前设备和当前站点，换域名不会自动迁移；迁移使用完整作品文件导出/导入。
 
@@ -16,9 +16,9 @@
 
 ```sh
 npm run setup
-npm test
 npm run examples
 npm run build
+npm test
 npm run dev
 ```
 

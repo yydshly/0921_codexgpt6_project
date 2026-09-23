@@ -19,11 +19,11 @@ jobs:
           cache: npm
           cache-dependency-path: moon-studio/package-lock.json
       - run: npm run setup
-      - run: npm test
       - run: npm run examples
       - run: npm run build
         env:
           VITE_BASE_PATH: /0921_codexgpt6_project/
+      - run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
