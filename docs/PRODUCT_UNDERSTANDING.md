@@ -2,7 +2,9 @@
 
 更新：2026-09-23。范围为 `0921_codexgpt6_project` 中实际保留的研究、素材、影片、网页原型与交付文件。本文用于接手和继续开发，不把一次方向探索写成已经完成市场验证的产品。
 
-统一总览入口为 `/#overview`，当前主产品为 `/#story`。在线状态：**待部署**；预期地址为 [GitHub Pages](https://yydshly.github.io/0921_codexgpt6_project/)。远端目标是 [yydshly/0921_codexgpt6_project](https://github.com/yydshly/0921_codexgpt6_project)，实际推送与上线结果由本轮集成确认。
+统一总览入口为 `/#overview`，当前主产品为 `/#story`。**已于 2026-09-23 公开部署**：[项目总览](https://yydshly.github.io/0921_codexgpt6_project/) · [在线创作台](https://yydshly.github.io/0921_codexgpt6_project/#story)。公开仓库为 [yydshly/0921_codexgpt6_project](https://github.com/yydshly/0921_codexgpt6_project)，首次发布提交为 `752b9c4`；[部署工作流](https://github.com/yydshly/0921_codexgpt6_project/actions/runs/35808741556) 的 50 项自动检查、构建和部署成功，线上首页返回 HTTP 200 且标题正确。
+
+网站发布不改变作品的保存边界：用户自创内容仍在当前浏览器的本地存储中，完整 JSON / HTML 用于文件交付，不会自动成为公开作品页。本次发布记录也不代替线上交互、素材及各浏览器的完整验收。
 
 ## 1. 起点：用户要的是可以用于中秋营销的产品
 

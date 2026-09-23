@@ -8,19 +8,21 @@
 
 | 项目 | 地址或状态 |
 | --- | --- |
-| 目标公开仓库 | [yydshly/0921_codexgpt6_project](https://github.com/yydshly/0921_codexgpt6_project)；提交与推送状态由本轮集成确认。 |
-| 在线体验 | **待部署**。预期 GitHub Pages 地址：[0921_codexgpt6_project](https://yydshly.github.io/0921_codexgpt6_project/)。 |
-| 统一入口 | `/#overview`，项目总览、产品理解与全部样例入口；本轮集成的默认页面。 |
-| 当前主产品 | `/#story`，互动故事体验与编排。 |
-| 部署方式 | GitHub Pages；构建和仓库存在均不代表网站已经发布成功。 |
+| 公开仓库 | [yydshly/0921_codexgpt6_project](https://github.com/yydshly/0921_codexgpt6_project)；首次发布提交为 [`752b9c4`](https://github.com/yydshly/0921_codexgpt6_project/commit/752b9c4)。 |
+| 在线体验 | **已于 2026-09-23 公开部署**：[项目总览](https://yydshly.github.io/0921_codexgpt6_project/)。 |
+| 统一入口 | `/#overview`，项目总览、产品理解与全部样例入口；当前默认页面。 |
+| 当前主产品 | [在线互动故事创作台](https://yydshly.github.io/0921_codexgpt6_project/#story)，体验故事并继续编排。 |
+| 部署方式 | GitHub Pages；[首次成功部署工作流](https://github.com/yydshly/0921_codexgpt6_project/actions/runs/35808741556)。 |
 
-[完整资产清单](docs/ASSET_CATALOG.md) · [部署与复现说明](docs/DEPLOYMENT.md)
+公开发布的是应用、仓库内样例和文档。用户自己的照片、声音与作品仍保存在当前浏览器和站点的本地存储中；点击保存或导出 JSON / HTML 不会自动上传到公开网站，也不会发送给其他人。
+
+[完整资产清单](docs/ASSET_CATALOG.md) · [部署与复现说明](docs/DEPLOYMENT.md) · [发布检查记录](docs/RELEASE_CHECKS.md)
 
 先读 [产品理解与演进记录](docs/PRODUCT_UNDERSTANDING.md)，再看 [创作台使用说明](moon-studio/README.md) 与 [已确认的产品决策](moon-studio/AGENTS.md)。
 
 ## 全部产品与样例
 
-下表的路由均相对于运行中的应用，在线部署后位于同一站点。源码目录中的 HTML 链接用于定位文件；在代码托管页面中查看文件不等于运行页面。
+下表的路由均相对于上述在线应用地址。源码目录中的 HTML 链接用于定位文件；在代码托管页面中查看文件不等于运行页面。
 
 | 阶段 / 样例 | 如何查看 | 当前定位 |
 | --- | --- | --- |
@@ -98,7 +100,7 @@ npm test
 - 历史验收：[三风格](moon-studio/design/studio-design-qa.md)、[来信](moon-studio/design/letter-design-qa.md)、[热点图](moon-studio/design/picture-design-qa.md)。
 - [影片验证结果](midautumn-film/output/qa-report.json)：记录全文件解码、音画 / 字幕对齐及关键帧检查，不代表真人情绪评价或所有设备兼容性。
 
-本轮远端仓库与 GitHub Pages 的结果需由实际推送、部署及线上访问确认后更新。已有本机验收不能替代这一步。
+2026-09-23 首次公开部署已完成：[工作流记录](https://github.com/yydshly/0921_codexgpt6_project/actions/runs/35808741556) 中 50 项自动检查通过，构建与部署成功；线上首页已返回 HTTP 200，并确认页面标题正确。这些证据确认首次发布，不等于所有线上交互、素材与浏览器兼容性均已验收。
 
 接下来的产品问题是：参与者是否愿意主动完成、创作者能否改出真正不同的个人表达，以及是否愿意分享给真实的人。品牌、商品入口、活动分析、在线协作、改编关系链和互动转视频仍是后续方向；尚无证据可承诺营销效果。
 

@@ -1,14 +1,18 @@
 # 远端仓库与网站部署
 
-仓库：<https://github.com/yydshly/0921_codexgpt6_project>（用户指定公开）。
+公开仓库：[yydshly/0921_codexgpt6_project](https://github.com/yydshly/0921_codexgpt6_project)（用户指定公开）。
 
-目标网站：<https://yydshly.github.io/0921_codexgpt6_project/>。本轮发布状态由远端 Actions 与部署结果核验后更新。
+网站：**已于 2026-09-23 公开部署**。[项目总览](https://yydshly.github.io/0921_codexgpt6_project/) · [互动故事创作台](https://yydshly.github.io/0921_codexgpt6_project/#story)。
+
+首次成功发布对应提交 [`752b9c4`](https://github.com/yydshly/0921_codexgpt6_project/commit/752b9c4) 和 [GitHub Actions 工作流](https://github.com/yydshly/0921_codexgpt6_project/actions/runs/35808741556)。工作流的 50 项自动检查通过，构建与 deploy 均成功；线上首页返回 HTTP 200，页面标题正确。此处记录首次发布证据，不提前宣称全部线上交互、素材或浏览器检查通过。
 
 ## 工作流
 
 `.github/workflows/deploy.yml` 在 main 更新时运行：安装 moon-studio 的锁定依赖 → 重新生成可独立播放的故事样例 → 将影片、声音及文档接入展示目录 → 用仓库子路径构建 → 自动测试（含构建产物检查） → 上传 Pages 产物 → 发布。
 
-源码保留在仓库；网站只部署 `moon-studio/dist/client`。它没有服务器数据库、账号系统或自动上传个人照片的后端。浏览器中的保存记录仍属当前设备和当前站点，换域名不会自动迁移；迁移使用完整作品文件导出/导入。
+源码保留在仓库；网站只部署 `moon-studio/dist/client`。它没有服务器数据库、账号系统或自动上传个人照片的后端。浏览器中的保存记录仍属当前设备和当前站点：故事使用 IndexedDB，部分历史原型使用 localStorage。换域名不会自动迁移；迁移使用完整作品文件导出/导入。
+
+用户点击“保存”不会把自己的图片、音频或作品发布到 GitHub Pages。可编辑 JSON 与独立 HTML 仍是用户自行保留、交付的文件；若要为自创作品提供公开链接，需要另行发布该作品。
 
 ## 本地复现
 
