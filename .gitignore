@@ -1,0 +1,22 @@
+# Dependencies, local build output and tool environments
+**/node_modules/
+**/dist/
+**/.font-tools/
+**/__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+# Recreated from the canonical source assets by prepare:showcase
+moon-studio/public/showcase/
+# Reproducible film intermediates; final media and delivery bundle are retained
+midautumn-film/output/silent.mp4
+midautumn-film/output/final-mix.wav
+.git-initial-backup/

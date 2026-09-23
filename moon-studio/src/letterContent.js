@@ -1,0 +1,8 @@
+export const LETTER_POEMS = {
+  wang: { title:'望月怀远', author:'唐 · 张九龄', line:'海上生明月，天涯共此时。', start:'海上生明月', answer:'天涯共此时', options:['天涯共此时','月是故乡明','江清月近人'], purpose:'写给身在另一座城的人', prompt:'你们在哪个地方，一起看过月亮？', note:'同一轮月亮，让相隔天涯的人有了共同的此刻。把古人的遥想，写成你们今天的故事。', source:'https://www.sastind.gov.cn/history/n152/n81023/n81097/n109645/c110343/content.html' },
+  su: { title:'水调歌头', author:'宋 · 苏轼', line:'但愿人长久，千里共婵娟。', start:'但愿人长久', answer:'千里共婵娟', options:['千里共婵娟','天涯共此时','对影成三人'], purpose:'写给想团圆的家人', prompt:'哪一个小习惯，让你一想起来就像回了家？', note:'这首词作于中秋，小序写明“兼怀子由”。你也可以把想念，写给今年暂时不能相聚的人。', source:'https://m.12371.gov.cn/content/2024-10/14/content_475229.html' },
+  li: { title:'月下独酌', author:'唐 · 李白', line:'举杯邀明月，对影成三人。', start:'举杯邀明月', answer:'对影成三人', options:['千里共婵娟','对影成三人','天涯共此时'], purpose:'写给想再约一次的朋友', prompt:'如果今夜能再见面，你想一起做什么？', note:'李白把月亮和影子想象成同伴。我们借这个咏月意象邀请朋友；不将它说成确定写于中秋的诗。', source:'https://www.sastind.gov.cn/history/n152/n81023/n81097/c112089/content.html' }
+};
+export const LETTER_STYLES = [{id:'sea',name:'月光海面',detail:'把两座城，写进同一轮月亮',asset:'moon-sea'},{id:'paper',name:'山水诗笺',detail:'留下可以反复读的两个人的字句',asset:'paper-scene'},{id:'sound',name:'水岸回响',detail:'让两句原创的回应，落在水面上',asset:'sound-pool'}];
+export const OPENINGS = [{id:'poem',name:'接一句诗，再读信',detail:'用选中的古诗，作一个轻巧的开场。'},{id:'question',name:'回答我们的默契问题',detail:'先回答你提出的问题，回信里会留下答案。'},{id:'direct',name:'直接打开，慢慢读',detail:'让故事先说话，然后邀请对方续写。'}];
+export const SAMPLE_FIELDS = {title:'示例｜等你补完这一轮月亮',fromName:'阿遥',fromCity:'杭州',toName:'小满',poemId:'wang',story:'去年中秋，我们在河边分了最后一块桂花月饼。你说，到了不同的城市，也可以约好一个时间看月亮。\n今年我又走到那座桥上，风还是带着桂花香。这封信，想留一半给你。',firstLine:'我把杭州的晚风写进月光，',question:'还记得去年，我们把最后一块月饼留给了谁？',opening:'poem',style:'sea',status:'waiting'};

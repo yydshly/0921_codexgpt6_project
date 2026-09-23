@@ -1,0 +1,282 @@
+{
+  "title": "一桌人，终于坐下",
+  "series": "这一家",
+  "fictional_demonstration": true,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frame_count": 1217,
+  "duration": 50.708333333333336,
+  "narration_duration": 43.704,
+  "narration_offset": 4.0,
+  "caption_timing": "Unmodified provider sentence timings plus exactly 4 seconds.",
+  "source_artwork_modified": false,
+  "shots": [
+    {
+      "asset": "envelope",
+      "label": "纸封开场",
+      "start": 0.0,
+      "end": 4.0,
+      "zoom_start": 1.0,
+      "zoom_end": 1.018,
+      "anchor_x": 0.5,
+      "anchor_y": 0.45,
+      "drift_x": 0.0,
+      "drift_y": 0.0
+    },
+    {
+      "asset": "father",
+      "label": "多带的一袋水果",
+      "start": 4.0,
+      "end": 12.206956916099774,
+      "zoom_start": 1.0,
+      "zoom_end": 1.03,
+      "anchor_x": 0.62,
+      "anchor_y": 0.0,
+      "drift_x": 0.04,
+      "drift_y": 0.02
+    },
+    {
+      "asset": "child",
+      "label": "双黄月饼",
+      "start": 12.206956916099774,
+      "end": 19.903668934240365,
+      "zoom_start": 1.0,
+      "zoom_end": 1.02,
+      "anchor_x": 0.57,
+      "anchor_y": 0.0,
+      "drift_x": 0.0,
+      "drift_y": 0.0
+    },
+    {
+      "asset": "mother",
+      "label": "厨房里的招呼",
+      "start": 19.903668934240365,
+      "end": 23.272952380952383,
+      "zoom_start": 1.015,
+      "zoom_end": 1.03,
+      "anchor_x": 0.55,
+      "anchor_y": 0.18,
+      "drift_x": -0.015,
+      "drift_y": 0.01
+    },
+    {
+      "asset": "father",
+      "label": "门口的回应",
+      "start": 23.272952380952383,
+      "end": 26.803832199546484,
+      "zoom_start": 1.045,
+      "zoom_end": 1.055,
+      "anchor_x": 0.67,
+      "anchor_y": 0.0,
+      "drift_x": 0.015,
+      "drift_y": 0.0
+    },
+    {
+      "asset": "mother",
+      "label": "忙着摆好一桌",
+      "start": 26.803832199546484,
+      "end": 32.736,
+      "zoom_start": 1.055,
+      "zoom_end": 1.08,
+      "anchor_x": 0.57,
+      "anchor_y": 0.24,
+      "drift_x": -0.025,
+      "drift_y": 0.01
+    },
+    {
+      "asset": "family",
+      "label": "终于坐下",
+      "start": 32.736,
+      "end": 40.02096145124717,
+      "zoom_start": 1.035,
+      "zoom_end": 1.0,
+      "anchor_x": 0.5,
+      "anchor_y": 0.2,
+      "drift_x": 0.0,
+      "drift_y": 0.0
+    },
+    {
+      "asset": "stilllife",
+      "label": "先尝一口",
+      "start": 40.02096145124717,
+      "end": 48.054,
+      "zoom_start": 1.0,
+      "zoom_end": 1.038,
+      "anchor_x": 0.56,
+      "anchor_y": 0.46,
+      "drift_x": 0.02,
+      "drift_y": 0.0
+    },
+    {
+      "asset": "family",
+      "label": "我们家的中秋",
+      "start": 48.054,
+      "end": 50.708333333333336,
+      "zoom_start": 1.0,
+      "zoom_end": 1.008,
+      "anchor_x": 0.5,
+      "anchor_y": 0.2,
+      "drift_x": 0.0,
+      "drift_y": 0.0
+    }
+  ],
+  "transitions": [
+    {
+      "center": 3.68,
+      "duration": 0.64
+    },
+    {
+      "center": 12.206956916099774,
+      "duration": 0.82
+    },
+    {
+      "center": 19.903668934240365,
+      "duration": 0.8002361904761884
+    },
+    {
+      "center": 23.272952380952383,
+      "duration": 0.5225599999999996
+    },
+    {
+      "center": 26.803832199546484,
+      "duration": 0.7596419047619071
+    },
+    {
+      "center": 32.736,
+      "duration": 0.7728000000000014
+    },
+    {
+      "center": 40.02096145124717,
+      "duration": 0.82
+    },
+    {
+      "center": 48.054,
+      "duration": 0.7
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "text": "出门前，爸爸还在说，今年少买一点。",
+      "start": 4.0,
+      "end": 7.777732426303855
+    },
+    {
+      "index": 1,
+      "text": "回来时，手里又多了一袋水果。",
+      "start": 8.644,
+      "end": 11.701913832199548
+    },
+    {
+      "index": 2,
+      "text": "孩子趴在桌边，挑来挑去，还是指着那块双黄月饼。",
+      "start": 12.712,
+      "end": 17.811999999999998
+    },
+    {
+      "index": 3,
+      "text": "我要这个。",
+      "start": 18.436,
+      "end": 19.427337868480727
+    },
+    {
+      "index": 4,
+      "text": "厨房里喊了一声，汤好了。",
+      "start": 20.38,
+      "end": 22.961904761904762
+    },
+    {
+      "index": 5,
+      "text": "门口也应了一声，来了，来了。",
+      "start": 23.584,
+      "end": 26.351664399092968
+    },
+    {
+      "index": 6,
+      "text": "有人接包，有人摆碗。刚坐下的人，又起身去拿筷子。",
+      "start": 27.256,
+      "end": 32.275999999999996
+    },
+    {
+      "index": 7,
+      "text": "别忙了，快来坐。",
+      "start": 33.196,
+      "end": 35.011646258503404
+    },
+    {
+      "index": 8,
+      "text": "叫了好几回，这一桌人，终于坐下了。",
+      "start": 35.968,
+      "end": 39.501922902494336
+    },
+    {
+      "index": 9,
+      "text": "水果洗好了，月饼切小一点，每个人都有。",
+      "start": 40.54,
+      "end": 44.74730158730159
+    },
+    {
+      "index": 10,
+      "text": "来，先尝一口。",
+      "start": 45.544,
+      "end": 47.545405895691616
+    }
+  ],
+  "previews": [
+    {
+      "time": 2.35,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-01-02.35s.jpg",
+      "scene": "纸封开场"
+    },
+    {
+      "time": 5.888866213151927,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-02-05.89s.jpg",
+      "scene": "多带的一袋水果"
+    },
+    {
+      "time": 15.261999999999999,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-03-15.26s.jpg",
+      "scene": "双黄月饼"
+    },
+    {
+      "time": 21.67095238095238,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-04-21.67s.jpg",
+      "scene": "厨房里的招呼"
+    },
+    {
+      "time": 29.766,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-05-29.77s.jpg",
+      "scene": "忙着摆好一桌"
+    },
+    {
+      "time": 37.73496145124717,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-06-37.73s.jpg",
+      "scene": "终于坐下"
+    },
+    {
+      "time": 42.64365079365079,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-07-42.64s.jpg",
+      "scene": "先尝一口"
+    },
+    {
+      "time": 49.65833333333334,
+      "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\previews\\frame-08-49.66s.jpg",
+      "scene": "我们家的中秋"
+    }
+  ],
+  "final": {
+    "file": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\output\\这一家-中秋样片.mp4",
+    "music": "F:\\codex_project\\0921_codexgpt6_project\\midautumn-film\\assets\\audio\\music.wav",
+    "music_gain_before_ducking": 0.7,
+    "voice_loudness_target_lufs": -17,
+    "duration": 50.708333,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "24/1",
+    "bytes": 32026536
+  }
+}

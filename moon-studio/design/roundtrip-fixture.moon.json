@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "project": {
+    "title": "月光来信 · 导入示例",
+    "mode": "sea",
+    "config": {
+      "poemId": "wang",
+      "message": "愿你所念的人，今夜也在看月亮。",
+      "customPoem": "",
+      "moonX": 0.68,
+      "moonY": 0.23,
+      "moonSize": 0.14,
+      "brightness": 0.65,
+      "response": "message",
+      "trigger": "moon",
+      "spacing": 0.6,
+      "intensity": 0.55,
+      "textX": 0.08,
+      "textY": 0.19
+    },
+    "audioLabel": ""
+  }
+}

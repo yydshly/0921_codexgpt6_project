@@ -1,0 +1,34 @@
+{
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice_id": "female-shaonv",
+  "speed": 0.89,
+  "duration": 43.704,
+  "sha256": "fc7fa64ba166094590b94f11714d1e7ea8d1eaa7b42edd9fea377de0248c1655",
+  "extra_info": {
+    "audio_length": 43704,
+    "audio_sample_rate": 32000,
+    "audio_size": 700980,
+    "bitrate": 128000,
+    "word_count": 234,
+    "invisible_character_ratio": 0,
+    "usage_characters": 366,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "transcript": [
+    "出门前，爸爸还在说，今年少买一点。",
+    "回来时，手里又多了一袋水果。",
+    "孩子趴在桌边，挑来挑去，还是指着那块双黄月饼。",
+    "我要这个。",
+    "厨房里喊了一声，汤好了。",
+    "门口也应了一声，来了，来了。",
+    "有人接包，有人摆碗。刚坐下的人，又起身去拿筷子。",
+    "别忙了，快来坐。",
+    "叫了好几回，这一桌人，终于坐下了。",
+    "水果洗好了，月饼切小一点，每个人都有。",
+    "来，先尝一口。"
+  ],
+  "alignment_source": "MiniMax generated-audio sentence timestamps",
+  "audio_retimed": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "0921-codexgpt6-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mid-Autumn interactive story studio and product exploration archive",
+  "scripts": {
+    "setup": "npm ci --prefix moon-studio",
+    "prepare:showcase": "node scripts/prepare-showcase.mjs",
+    "examples": "node moon-studio/scripts/create-story-examples.mjs",
+    "dev": "npm run prepare:showcase && npm --prefix moon-studio run dev -- --host 127.0.0.1 --port 4187 --strictPort",
+    "test": "npm --prefix moon-studio test",
+    "build": "npm run prepare:showcase && npm --prefix moon-studio run build"
+  }
+}
